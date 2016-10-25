@@ -1,0 +1,53 @@
+.editing .view {
+    display: none;
+}
+
+.editing .saveNote, .static .editNote,  .static .hastags {
+    display: block;
+}
+
+.static .saveNote, .editing .editNote, .editing .hastags {
+    display: none;
+}
+
+.edit {
+    display: inline-block;
+    padding: 20px;;
+}
+
+.hash_tag {
+    color: blue;
+}
+
+.tag {
+    /*width: 30px;*/
+    background: lightskyblue;
+    border-radius: 10%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.hastags {
+    display: block;
+    width:40%;
+    float: left;
+    padding:0;
+}
+
+.view {
+    float: left;
+    width: 50%;
+    display: block;
+    border: #ddd 1px solid;
+    border-top-color: #eee;
+    border-bottom-color: #bbb;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    padding: 10px;
+}
+.buttons{
+    float: right;
+    display: block;
+}
+
